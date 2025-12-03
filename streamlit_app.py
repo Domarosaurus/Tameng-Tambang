@@ -1,8 +1,5 @@
 import streamlit as st
 from datetime import datetime
-from streamlit_autorefresh import st_autorefresh
-
-count = st_autorefresh(interval=1000)
 
 # ============================================================
 # PROGRAM ACCESS CARD - MINING SITE PT INDAH IMUT DAN MERONA
@@ -90,7 +87,7 @@ def main():
 
     st.subheader("PT INDAH IMUT DAN MERONA")
     st.caption("Jam operasional: 05.00 - 18.00 WIB")
-    st.caption(f"{waktu:02d}:{menit:02d}:{detik:02d} WIB")
+    st.caption(f"{waktu:02d}:{menit:02d} WIB")
 
     # ============================
     # MENU BARU
